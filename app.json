@@ -1,0 +1,17 @@
+{
+  "name": "Square Mobile Backend Server",
+  "description": "An example mobile backend server for Square In-App Payments",
+  "env": {
+    "ACCESS_TOKEN": {
+      "description": "EAAAEE_lezB08foxlW7UjbmzoMsND5biDDCUOtjv9WCLJTSNG4PdIgIZB9MCLFuL",
+      "required": true
+    },
+    "API_BASE_PATH": {
+      "description": "https://connect.squareupsandbox.com",
+      "required": true
+    }
+  },
+  "scripts": {
+    "postdeploy": "npm install"
+  }
+}
