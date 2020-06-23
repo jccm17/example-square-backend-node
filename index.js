@@ -16,7 +16,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 let oauth2 = defaultClient.authentications['oauth2'];
-oauth2.accessToken = process.env.ACCESS_TOKEN= "EAAAENfEao1T3pp6_W_m7LalBw86Lq1tpG0_DIJI9pB1g6LP0im8lSqkehvnIhDq";
+oauth2.accessToken = process.env.ACCESS_TOKEN= "EAAAEOhic6he3GP3J4Fqlsj7A0gAuCM5IWEz7yEdrQislrv5QuFzMAJB7DU_bCdB";
 
 // Use API_BASE_PATH to switch between sandbox env and production env
 // sandbox: https://connect.squareupsandbox.com
